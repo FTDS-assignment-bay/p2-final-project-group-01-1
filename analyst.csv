@@ -1,411 +1,195 @@
-<<<<<<< HEAD
-product_id,name,price,rating,sold,ram,rom,brand,warranty,signal
-1,Asus Zenfone 10 8/128GB - Starry Blue,8999000,4.8,60,8,128,asus,official,on
-2,Asus Zenfone 10 8/128GB - Aurora Green,8999000,4.9,60,8,128,asus,official,on
-3,Asus Zenfone 10 8/128GB - Eclipse Red,8999000,5.0,70,8,128,asus,official,on
-4,Asus Zenfone 10 8/128GB - Comet White,8999000,4.8,50,8,128,asus,official,on
-5,Asus Zenfone 10 8/128GB - Midnight Black,8999000,4.9,100,8,128,asus,official,on
-6,Asus Zenfone 10 16/512GB - Midnight Black,11999000,4.9,80,16,512,asus,official,on
-7,Asus Zenfone 9 8/256GB - White,9999000,4.7,7,8,256,asus,official,on
-8, Asus Zenfone 9 8/256GB - Black,9999000,5.0,30,8,256,asus,official,on
-9,Asus Zenfone 9 6/128GB - Black,7999000,5.0,250,6,128,asus,official,on
-10,Asus Zenfone 9 6/128GB - White,7999000,5.0,60,6,128,asus,official,on
-11,Asus Zenfone 9 6/128GB - Red,7999000,5.0,27,6,128,asus,official,on
-12,Asus Zenfone 9 6/128GB - Blue,7999000,4.8,24,6,128,asus,official,on
-13,Asus Zenfone 9 16/256GB - Black,11999000,5.0,100,16,256,asus,official,on
-14,Asus Zenfone 8 8/128GB - Silver,6999000,5.0,2,8,128,asus,official,on
-15,Asus Zenfone 8 8/128GB - Black,6999000,5.0,100,8,128,asus,official,on
-1,Infinix Note 40 Pro+ 5G 12/256GB - Up to 24GB Extended RAM - Dimensity 7020 - 6.78” FHD+ 3D Curved Amoled - 108MP OIS - 100W Charger - NFC,3949000,4.9,250,40,256,infinix,official,on
-2,Infinix Note 40S 8/256GB - Up to 16GB Extended RAM - Helio G99 - 6.78” 3D Curved Amoled 120Hz - Camera 108MP - 5000 mAh - NFC,3099000,4.9,500,40,256,infinix,official,on
-3,Infinix Note 40 Pro 5G 8/256GB - Up to 16GB Extended RAM - Dimensity 7020 - 6.78” FHD+ 3D Curved Amoled - 108MP OIS - 45W Charger - NFC,3799000,4.9,1000,40,256,infinix,official,on
-4,Infinix Note 40 Pro 8/256GB - Up to 16GB Extended RAM - Helio G99,3499000,4.9,2000,40,256,infinix,official,on
-5,Infinix Note 40 8/256GB - Up to 16GB Extended RAM - Helio G99 - 6.78”,2999000,4.9,2000,40,256,infinix,official,on
-6,Infinix Note 30 8/256GB - Up To 16GB - 120 HZ Screen - 8/256 Black,2599000,4.9,1000,30,256,infinix,official,on
-7,Infinix Note 30 PRO 8/256GB -Up To 16GB- 108MP - 8/256 Garansi Resmi,3199000,4.9,1000,30,256,infinix,official,on
-8,Infinix Note 30 8/256GB - Up To 16GB - 120 HZ Screen - 8/256,2599000,4.9,3000,30,256,infinix,official,on
-1,OPPO A3x,2199000,5.0,18,6,128,oppo,official,on
-2,OPPO Reno12 Pro 5G,8999000,5.0,21,12,512,oppo,official,on
-3,OPPO Reno12 F,4299000,4.9,30,8,256,oppo,official,on
-4,OPPO Reno12 5G,6999000,5.0,100,12,256,oppo,official,on
-6,OPPO A3 Pro 5G,3999000,5.0,100,8,256,oppo,official,on
-7,OPPO A78 5G,3999000,4.9,250,8,128,oppo,official,on
-9,[Flash Sale] OPPO A3 Pro 5G,4049000,4.7,3,8,256,oppo,official,on
-10,OPPO A18,1799000,4.9,25,4,128,oppo,official,on
-11,[DISKON] OPPO Reno8 T 4G Smartphone,4899000,5.0,90,8,256,oppo,official,on
-13,[Kejar Diskon] OPPO Reno8 T 4G Smartphone,4899000,5.0,30,8,256,oppo,official,on
-14,[Flash Price] OPPO Reno8 T 4G Smartphone,4899000,4.9,750,8,256,oppo,official,on
-15, [Diskon Spesial] OPPO A57 Smartphone,2699000,5.0,50,4,128,oppo,official,on
-16,[Special Promo] OPPO A57 Smartphone,2699000,5.0,13,4,128,oppo,official,on
-17,[Special Promo] OPPO A77s,3499000,5.0,2,8,128,oppo,official,on
-18,OPPO A17,2099000,5.0,7,4,64,oppo,official,on
-22,[Kejar Diskon] OPPO Reno6 5G Smartphone,7999000,4.8,50,8,128,oppo,official,on
-23,[Flash Promo] OPPO A54 Smartphone,3099000,5.0,50,6,128,oppo,official,on
-25,OPPO A54 Smartphone,3099000,4.9,30,6,128,oppo,official,on
-27,OPPO Find N2 Flip,14999000,4.9,90,8,256,oppo,official,on
-28,OPPO Reno6 5G Smartphone,7999000,4.9,100,8,128,oppo,official,on
-29,OPPO Reno8 5G,8499000,5.0,17,12,256,oppo,official,on
-30,OPPO Reno6 5G Smartphone,7999000,4.8,10,8,128,oppo,official,on
-31,OPPO Reno7 Z 5G,5999000,4.8,11,8,128,oppo,official,on
-33,OPPO Reno8 T 4G Smartphone,4899000,4.9,500,8,256,oppo,official,on
-34,OPPO A57 Smartphone,2699000,4.9,250,4,128,oppo,official,on
-36,[Flash Promo] OPPO A55,2699000,5.0,12,4,64,oppo,official,on
-37,OPPO A17k,1799000,4.9,250,3,64,oppo,official,on
-38,OPPO A16k,2199000,4.8,70,4,64,oppo,official,on
-39,OPPO A16 Smartphone,1999000,4.9,4000,3,32,oppo,official,on
-40,[Promo Sale] OPPO A55,2699000,5.0,70,4,64,oppo,official,on
-41,OPPO A17,2099000,4.9,1000,4,64,oppo,official,on
-42,FLASH PROMO - OPPO A16 Smartphone,2499000,5.0,1000,4,64,oppo,official,on
-43,OPPO A55,2699000,5.0,500,4,64,oppo,official,on
-44,OPPO A55,2699000,4.9,3000,4,64,oppo,official,on
-45,OPPO A77s,3499000,4.9,750,8,128,oppo,official,on
-49,OPPO A16 Smartphone,2499000,4.9,4000,4,64,oppo,official,on
-53,[Tukar Tambah Live.On] OPPO Reno6 5G Smartphone,7999000,5.0,6,8,128,oppo,official,on
-54,[Tukar Tambah Live.On] OPPO Reno6 Smartphone,5199000,5.0,17,8,128,oppo,official,on
-55,OPPO A57 Smartphone,2399000,4.9,500,4,64,oppo,official,on
-57,OPPO FIND X5 PRO 5G Smartphone,14999000,4.9,100,12,256,oppo,official,on
-58,OPPO A16k,2199000,4.9,250,4,64,oppo,official,on
-61,OPPO Reno7 5G,7499000,4.8,100,8,256,oppo,official,on
-62,OPPO A55,2699000,4.9,1000,4,64,oppo,official,on
-63,OPPO Reno7 Z 5G,5999000,4.9,250,8,128,oppo,official,on
-64,OPPO Reno5 F Smartphone,4299000,5.0,70,8,128,oppo,official,on
-65,OPPO Reno5 Smartphone,4999000,5.0,3,8,128,oppo,official,on
-67,OPPO A15S Smartphone,2299000,5.0,4,4,64,oppo,official,on
-68,OPPO A15 Smartphone,1749000,4.9,250,2,32,oppo,official,on
-69,OPPO Reno6 Pro 5G Smartphone,10999000,4.9,80,12,256,oppo,official,on
-70,OPPO Reno6 5G Smartphone,7999000,4.9,250,8,128,oppo,official,on
-71,OPPO Reno6 Smartphone,5199000,4.9,1000,8,128,oppo,official,on
-72,OPPO A16 Smartphone,1999000,4.9,5000,3,32,oppo,official,on
-73,OPPO A53 Smartphone,3099000,4.9,100,6,128,oppo,official,on
-74,OPPO A53 Smartphone,2499000,4.9,100,4,64,oppo,official,on
-75,OPPO FIND X3 PRO Smartphone,15999000,4.9,100,12,256,oppo,official,on
-76,OPPO A74 5G Smartphone,3999000,4.9,750,6,128,oppo,official,on
-77,OPPO A92 Smartphone,4199000,4.9,100,8,128,oppo,official,on
-78,OPPO A54 Smartphone,2499000,5.0,1000,4,64,oppo,official,on
-79,OPPO A54 Smartphone,3099000,4.9,1000,6,128,oppo,official,on
-80,OPPO A74 Smartphone,3499000,4.9,250,6,128,oppo,official,on
-1,Official realme 13 8GB+8GB|256GB | 120Hz AMOLED Display | 67W SUPERVOOC Charge | 5000mAh Battery | Snapdragon 685 Chipset | Sony LYT-600 OIS Portrait Camera,3199000,4.9,100,8,8,realme,official,on
-2,Official realme Buds T110 earphone TWS headset 102dB Volume Boost Mode | Bluetooth 5.4 | IPX5 Water Resistance | 10mm Dynamic Bass Driver,299000,4.9,500,8,32,realme,official,on
-3,Official realme C65 HP 8*8+256GB 45W Fast Charge | 5000mAh Massive Battery | G85 | 5000mAh Massive Battery | IP54 Water Resistance | Rainwater Smart Touch,2599000,4.8,70,8,256,realme,official,on
-4,Offical realme 12 Pro+ 5G 8+256GB HP | Snapdragon 7z Gen 2 smartphone,5999000,5.0,30,8,256,realme,official,on
-5,Offical realme 12 Pro Plus 5G 8+256GB HP Snapdragon 7z Gen 2 | 120Hz,5999000,4.9,100,8,256,realme,official,on
-6,realme 9i 4/64GB Snapdragon 680 Prosesor 90Hz Layar Ultra Halus,2699000,5.0,4,4,64,realme,official,on
-7,Offical realme Note 50 HP 3GB+3GB* | 64GB 90Hz Vivid Display phone,1499000,4.9,250,3,3,realme,official,on
-8,Official HP realme 12 Plus 12GB+512GB Dimensity 7050 5G Chipset 67W,5999000,5.0,90,12,512,realme,official,on
-9,Offical HP realme 12 5G 8GB+8GB*|256GB 108MP Camera 6.72 FHD+ LCD,4499000,4.9,100,8,8,realme,official,on
-10,Offical HP realme C51s 6GB+6GB*|128GB 50MP AI Camera 7.49mm smartphone,2299000,4.9,250,6,6,realme,official,on
-11,Official realme 12 Plus 8GB+256GB HP Dimensity 7050 5G Chipset 67W,4290000,4.9,100,8,256,realme,official,on
-12,Offical realme 12 Pro Plus 5G 12+512GB Snapdragon 7z Gen 2  | 120Hz ,7190000,4.9,50,12,512,realme,official,on
-13,Official Realme HP GT Neo 3 80W 8+256GB Dimensity 8100 5G,7999000,5.0,2,8,256,realme,official,on
-14,Official Realme HP C67 NFC 8+8GB*/128GB 256GB Snapdragon 685 108MP,3699000,4.9,100,8,128,realme,official,on
-15,(New) realme C67 NFC 8+8GB*/128GB 256GB Snapdragon 685 108MP Camera,99990000,5.0,40,8,128,realme,official,on
-16,Official realme C51 4+4/64GB | 4+4/128GB - 33W Charge | 50 MP | NFC,2899000,4.9,250,4,64,realme,official,on
-17,Official Realme HP 11 4G NFC 8GB/256GB 5000mah|108MP Camera|Helio G99,99000000,5.0,30,8,256,realme,official,on
-18,HP realme 11 Pro 5G 8GB+8GB*/256GB  120Hz Display | 100MP OIS | 67W ,7999000,5.0,14,8,256,realme,official,on
-19,Official Realme HP 11 pro+ 5G 12GB+12GB* / 512GB| 200MP OIS,100000000,5.0,3,12,12,realme,official,on
-20,Official realme C53 6/128GB -33W SUPERVOOC Charge | 5000 mAh| NFC|50MP,2999000,4.9,500,6,128,realme,official,on
-21,Official Realme HP c55 6GB+128GB | 8GB+256GB smartphone 90Hz FHD+,9899000,4.9,250,6,128,realme,official,on
-22,Official Realme HP 10 8GB+128GB | 8GB+256GB 90Hz 5000mAh Handphone,3399000,4.9,70,8,128,realme,official,on
-23,Official Realme HP 10 Pro+ 5G 8GB+128GB 12GB+256GB Smartphone,6999000,5.0,10,8,128,realme,official,on
-24,Hp realme C33 3/32GB 4/64GB 4+128GB Handphone Smartphone,1699000,4.7,25,3,32,realme,official,on
-25,Official Realme HP c30s 3GB+32GB 5000mAh | 6.5''Fullscreen Smartphone,3666000,5.0,5,3,32,realme,official,on
-26,HP realme c30s 4GB+64GB 5000mAh | 6.5'' Fullscreen Smartphone,4888000,5.0,18,4,64,realme,official,on
-27,Hp realme 10 Pro+ 5G 8GB+128GB Smartphone Handphone,9999000,5.0,7,8,128,realme,official,on
-28,Official Realme HP 10 Pro+ 5G 12GB+256GB Smartphone Handphone,9999000,4.9,11,12,256,realme,official,on
-29,Hp realme 10 Pro 5G 8GB+128GB | 8GB+256GB Smartphone Handphone,9599000,4.7,11,8,128,realme,official,on
-30,realme 10 8GB+256GB Helio G99 Chipset | 5000mAh Handphone,3799000,5.0,29,8,256,realme,official,on
-31,Official Realme HP 10 8GB+128GB Helio G99 Chipset | 5000mAh Handphone,3399000,5.0,100,8,128,realme,official,on
-32,Hp realme C33 3/32GB 4/64GB Handphone Smartphone,1699000,4.8,30,3,32,realme,official,on
-33,Hp realme Narzo 50 4G 4/64GB Handphone Smartphone,2599000,4.9,90,4,64,realme,official,on
-34,realme GT 2 PRO 12GB/256GB GREEN [2K Display | PaperTech Master Design,9999000,4.6,8,12,256,realme,official,on
-35,Hp realme 9 Pro+ 8/128GB Free Fire Limited Edition 5G Handphone,4999000,5.0,2,8,128,realme,official,on
-36,Realme GT Neo 3T 8+128GB 80W Charge Snapdragon 870 5G 5000mAh,5699000,4.8,14,8,128,realme,official,on
-37,Hp realme Narzo 50i Prime 3/32GB 4/64GB Handphone Smartphone,1699000,4.9,500,3,32,realme,official,on
-38,"realme 8 Helio G95 8/128GB Super AMOLED, 64MP AI Quad Camera",3499000,5.0,2,8,128,realme,official,on
-39,"realme narzo 50i 4/64GB 6.5"" Large Display 5000mAh Octa-core processor",1799000,4.9,50,4,64,realme,official,on
-40,Hp realme C30 2/32GB 4/64GB Handphone Smartphone,1599000,4.8,11,2,32,realme,official,on
-41,Hp realme Narzo 50 5G 6/128GB Handphone Smartphone,3499000,5.0,250,6,128,realme,official,on
-42,Hp realme 9 Pro+ 5G 8/128GB 8/256GB Handphone Smartphone,5899000,5.0,30,8,128,realme,official,on
-43,Official Realme HP 9i 6/128GB Handphone Smartphone,3199000,5.0,11,6,128,realme,official,on
-44,Hp realme C11 (2021) 2/32GB 4/64GB Handphone Smartphone,1249000,4.9,50,2,32,realme,official,on
-45,"realme C31 Unisoc Tiger T612, 6.53""HD+, 13 AI Triple Camera,5000mAh",1999000,4.9,17,8,32,realme,official,on
-46,Official Realme HP 9 4G 6/128GB 108MP AI Triple Camera Snapdragon 680,3599000,5.0,30,6,128,realme,official,on
-47,"realme C21Y 13MP AI Triple Camera 6,5"" Layar Penuh Mini-drop 5000mAh",1699000,5.0,6,8,32,realme,official,on
-48,Hp realme Narzo 50A Prime 4/64GB 4/128GB Handphone Smartphone,2299000,4.9,2000,4,64,realme,official,on
-49,Hp realme C35 4/64GB 4/128GB Handphone Smartphone,2499000,5.0,40,4,64,realme,official,on
-50,realme GT 2 PRO 12GB/256GB 2K Display Snapdragon™ 8 Gen 1 Processor,9999000,5.0,9,12,256,realme,official,on
-2,Samsung Galaxy Z Fold6 12/512GB - Silver Shadow + Galaxy Watch7 44mm - Silver,33498000,5.0,1,12,512,samsung,official,on
-5,Samsung Galaxy M15 5G 6/128GB,2499000,4.9,1000,6,128,samsung,official,on
-6,Samsung Galaxy A55 5G 8/256GB,5509500,4.9,4000,8,256,samsung,official,on
-7,Samsung Galaxy A55 5G 12/256GB,6269500,4.9,2000,12,256,samsung,official,on
-8,Samsung Galaxy A35 5G 8/256GB,4899000,5.0,2000,8,256,samsung,official,on
-10,"Samsung Galaxy S24 Ultra [12/256], Smartphone AI, AI Phone, Handphone AI, Kamera 50MP, Layar besar, RAM besar, Baterai tahan lama",18619500,5.0,90,12,256,samsung,official,on
-12,Samsung Galaxy A25 5G 8/256GB,3847000,4.9,500,8,256,samsung,official,on
-15,Samsung Galaxy A05s 6/128GB,1994500,4.9,6000,6,128,samsung,official,on
-18,Samsung Galaxy S23 FE 8GB/128GB,8999000,5.0,4,8,128,samsung,official,on
-19,Samsung Galaxy A25 5G 8GB/256GB,4499000,5.0,40,8,256,samsung,official,on
-22,Samsung Galaxy A04e 3/32GB,1399000,5.0,8,3,32,samsung,official,on
-25,Samsung Galaxy A05s 6GB/128GB [Smartphone],2399000,5.0,50,6,128,samsung,official,on
-26,Samsung Galaxy A05 4GB/64GB [Smartphone],1599000,4.9,250,4,64,samsung,official,on
-27,Samsung Galaxy A15 8/256 LTE,3399000,5.0,40,8,256,samsung,official,on
-28,Samsung Galaxy A15 5G 8GB/256GB,3699000,4.9,250,8,256,samsung,official,on
-29,Samsung Galaxy A15 LTE 8GB/128GB,2999000,5.0,80,8,128,samsung,official,on
-30,Samsung Galaxy A55 5G 8/128GB,5999000,4.9,500,8,128,samsung,official,on
-31,Samsung Galaxy M34 5G 8GB/128GB,4099000,4.9,100,8,128,samsung,official,on
-32,"Samsung Galaxy S24 Ultra [12/1TB], Smartphone AI, AI Phone, Handphone AI, Kamera 50MP, Layar besar, RAM besar, Baterai tahan lama",27999000,5.0,250,12,1,samsung,official,on
-33,Samsung Galaxy S24+ 12/512GB Handphone AI,18999000,4.9,100,12,512,samsung,official,on
-34,Samsung Galaxy S24+ 12/256GB Handphone AI,15650000,4.7,28,12,256,samsung,official,on
-35,"Samsung Galaxy S24 [8/512], Smartphone AI, AI Phone, Handphone AI, Kamera 50MP, Layar besar, RAM besar, Baterai tahan lama",15999000,4.9,100,8,512,samsung,official,on
-36,Samsung Galaxy A34 5G 8GB/256GB ,5399000,4.9,250,8,256,samsung,official,on
-37,Samsung Galaxy A25 5G 8/128GB,4099000,4.9,750,8,128,samsung,official,on
-38,Samsung Galaxy A15 5G 8/256GB,3699000,4.9,2000,8,256,samsung,official,on
-39,Samsung Galaxy A15 LTE 8/256GB ,2980000,5.0,1000,8,256,samsung,official,on
-40,Samsung Galaxy A15 LTE 8/128GB,2999000,4.9,4000,8,128,samsung,official,on
-41,Samsung Galaxy M34 5G 8/128GB,4099000,4.9,1000,8,128,samsung,official,on
-42,Samsung Galaxy M54 5G 8/256GB,4499000,4.9,1000,8,256,samsung,official,on
-43,Samsung Galaxy S23 5G 8/256,13999000,5.0,100,8,256,samsung,official,on
-44,Samsung Galaxy A05 4/128GB,1799000,5.0,1000,4,128,samsung,official,on
-45,Samsung Galaxy A05 6/128GB,1999000,5.0,2000,6,128,samsung,official,on
-46,Samsung Galaxy A05 4/64GB,1599000,5.0,3000,4,64,samsung,official,on
-47,"Samsung Galaxy Z Fold5 [12/1TB] - Smartphone AI, AI Phone, Smartphone Lipat, Android, Immersive Viewing & Snapdragon 8 Gen 2 (4nm)",29999000,4.9,70,12,1,samsung,official,on
-48,"Samsung Galaxy Z Fold5 [12/512] - Smartphone AI, AI Phone, Smartphone Lipat, Android, Immersive Viewing & Snapdragon 8 Gen 2 (4nm)",26999000,5.0,100,12,512,samsung,official,on
-49,"Samsung Galaxy Z Fold5 [12/256] - Smartphone AI, AI Phone, Smartphone Lipat, Android, Immersive Viewing & Snapdragon 8 Gen 2 (4nm)",24999000,5.0,24,12,256,samsung,official,on
-50,"Samsung Galaxy Z Flip5 [8/512] - Smartphone AI, AI Phone, Smartphone Lipat, Android, Bigger Cover Screen & Snapdragon 8 Gen 2 (4nm)",17999000,4.9,250,8,512,samsung,official,on
-51,Samsung Galaxy Z Flip5 8/256GB,15999000,5.0,100,8,256,samsung,official,on
-52,Samsung Galaxy A54 5G 8/256GB,6399000,4.9,2000,8,256,samsung,official,on
-53,Samsung Galaxy A54 5G 8/128GB,5999000,4.9,500,8,128,samsung,official,on
-54,Samsung Galaxy A34 5G 8/256GB,5399000,4.9,1000,8,256,samsung,official,on
-55,"Samsung Galaxy S23 Ultra [12/512], Smartphone AI, AI Phone, Handphone AI, 50MP Nightography Camera & Snapdragon 8 Gen 2 (4nm), HP flagship Samsung, Android",21999000,4.8,250,12,512,samsung,official,on
-1,"Xiaomi Redmi 14C (6GB/128GB) (8GB/256GB) | Layar 6.88"" | Refresh rate 120 Hz | 50 MP dual kamera AI | Baterai 5.160 mAh | NFC [Official Store]",1499000,4.9,1000,6,128,xiaomi,official,on
-2,Official Xiaomi POCO F6 (8GB+256GB) | (12GB + 512GB) Snapdragon 8s Gen 3 | LiquidCool Technology 4.0 IceLoop,4999000,4.9,1000,8,128,xiaomi,official,on
-3,Official Xiaomi POCO M6 (8GB+256GB) | Kamera utama 108 MP kelas pro | Helio G91-Ultra yang tangguh | 33 W Turbo Charging,1999000,5.0,4000,8,128,xiaomi,official,on
-4,Official Xiaomi Redmi 13 (8GB/128GB) | (8GB/256GB) | Kamera 108 MP Super Jernih MediaTek Helio G91-Ultra 33W Fast Charging,1799000,5.0,2000,8,128,xiaomi,official,on
-5,Xiaomi 14 | Snapdragon 8 Gen 3 Leica 75mm Light Fusion 900 image sensor [ Official Store ],11999000,4.9,100,6,128,xiaomi,official,on
-7,Official Xiaomi Redmi Note 13 Pro | Kamera 200 MP ultra-jernih AMOLED ,3499000,4.9,1000,6,128,xiaomi,official,on
-8,"Official Redmi A3 | Layar Muluz 90 Hz berukuran 6.71"" baterai 5000 mAH",1199000,4.9,4000,6,128,xiaomi,official,on
-9,Official Xiaomi Redmi Note 13 5G | Tiga kamera 108 MP FHD+ AMOLED,2799000,4.9,3000,6,128,xiaomi,official,on
-10,"Official Xiaomi Redmi Note 13 Pro+ 5G | Layar AMOLED 1,5K 120 Hz",5999000,4.9,1000,6,128,xiaomi,official,on
-11,Official Xiaomi Redmi Note 13 (8GB/128GB) | (8GB/256GB) | Layar 120 Hz FHD+ AMOLED Tiga kamera 108 MP Prosesor Snapdragon 685,2199000,4.9,5000,8,128,xiaomi,official,on
-12,Official POCO M6 Pro | 120Hz Flow AMOLED 64MP triple camera OIS 67W,2699000,4.9,7000,6,128,xiaomi,official,on
-13,Official POCO X6 | Powerful Snapdragon® 7s Gen 2 FIow AMOLED 120 Hz 64,3999000,4.9,1000,6,128,xiaomi,official,on
-14,Official POCO X6 Pro 5G | Dimensity 8300-Ultra 120Hz FIow AMOLED 67W T,4899000,4.9,1000,6,128,xiaomi,official,on
-15,Official POCO C65 | RAM hingga 16 GB* Prosesor kencang Helio G85 90Hz ,1749000,4.9,1000,6,128,xiaomi,official,on
-16,Official Xiaomi Redmi 13C | Tiga kamera AI 50 MP 16 GB RAM* Layar Dot ,1799000,4.9,9000,6,128,xiaomi,official,on
-17,Official Xiaomi Redmi 12 (8GB/128GB) | (8GB/256GB) MediaTek Helio G88,1799000,4.9,8000,8,128,xiaomi,official,on
-18,Official Xiaomi POCO X5 Pro 5G (6GB/128GB) | (8GB/256GB) Snapdragon,3999000,4.9,6000,6,128,xiaomi,official,on
-19,Xiaomi Official Redmi Note 12 50MP Triple Kamera 120Hz AMOLED NFC IP53,2299000,4.9,6000,6,128,xiaomi,official,on
-20,XIAOMI OFFICIAL Redmi Note 12 Pro 5G Kamera 50MP Sony IMX766 P-OLED,4599000,4.9,5000,6,128,xiaomi,official,on
-=======
-product_id,name,price,rating,sold,ram,rom,brand
-1,Asus Zenfone 10 8/128GB - Starry Blue,99000,4.8,60,8,128,asus
-2,Asus Zenfone 10 8/128GB - Aurora Green,99000,4.9,60,8,128,asus
-3,Asus Zenfone 10 8/128GB - Eclipse Red,99000,5.0,70,8,128,asus
-4,Asus Zenfone 10 8/128GB - Comet White,99000,4.8,50,8,128,asus
-5,Asus Zenfone 10 8/128GB - Midnight Black,99000,4.9,100,8,128,asus
-6,Asus Zenfone 10 16/512GB - Midnight Black,999000,4.9,80,16,512,asus
-7,Asus Zenfone 9 8/256GB - White,99000,4.7,7,8,256,asus
-8, Asus Zenfone 9 8/256GB - Black,99000,5.0,30,8,256,asus
-9,Asus Zenfone 9 6/128GB - Black,99000,5.0,250,6,128,asus
-10,Asus Zenfone 9 6/128GB - White,99000,5.0,60,6,128,asus
-11,Asus Zenfone 9 6/128GB - Red,99000,5.0,27,6,128,asus
-12,Asus Zenfone 9 6/128GB - Blue,99000,4.8,24,6,128,asus
-13,Asus Zenfone 9 16/256GB - Black,999000,5.0,100,16,256,asus
-14,Asus Zenfone 8 8/128GB - Silver,99000,5.0,2,8,128,asus
-15,Asus Zenfone 8 8/128GB - Black,99000,5.0,100,8,128,asus
-1,Infinix Note 40 Pro+ 5G 12/256GB - Up to 24GB Extended RAM - Dimensity 7020 - 6.78” FHD+ 3D Curved Amoled - 108MP OIS - 100W Charger - NFC,3949000,4.9,250,40,256,infinix
-2,Infinix Note 40S 8/256GB - Up to 16GB Extended RAM - Helio G99 - 6.78” 3D Curved Amoled 120Hz - Camera 108MP - 5000 mAh - NFC,3099000,4.9,500,40,256,infinix
-3,Infinix Note 40 Pro 5G 8/256GB - Up to 16GB Extended RAM - Dimensity 7020 - 6.78” FHD+ 3D Curved Amoled - 108MP OIS - 45W Charger - NFC,3799000,4.9,1000,40,256,infinix
-4,Infinix Note 40 Pro 8/256GB - Up to 16GB Extended RAM - Helio G99,3499000,4.9,2000,40,256,infinix
-5,Infinix Note 40 8/256GB - Up to 16GB Extended RAM - Helio G99 - 6.78”,2999000,4.9,2000,40,256,infinix
-6,Infinix Note 30 8/256GB - Up To 16GB - 120 HZ Screen - 8/256 Black,2599000,4.9,1000,30,256,infinix
-7,Infinix Note 30 PRO 8/256GB -Up To 16GB- 108MP - 8/256 Garansi Resmi,3199000,4.9,1000,30,256,infinix
-8,Infinix Note 30 8/256GB - Up To 16GB - 120 HZ Screen - 8/256,2599000,4.9,3000,30,256,infinix
-1,OPPO A3x,2199000,5.0,18,6,128,oppo
-2,OPPO Reno12 Pro 5G,8999000,5.0,21,12,512,oppo
-3,OPPO Reno12 F,4299000,4.9,30,8,256,oppo
-4,OPPO Reno12 5G,6999000,5.0,100,12,256,oppo
-6,OPPO A3 Pro 5G,3999000,5.0,100,8,256,oppo
-7,OPPO A78 5G,3999000,4.9,250,8,128,oppo
-9,[Flash Sale] OPPO A3 Pro 5G,4049000,4.7,3,8,256,oppo
-10,OPPO A18,1799000,4.9,25,4,128,oppo
-11,[DISKON] OPPO Reno8 T 4G Smartphone,4899000,5.0,90,8,256,oppo
-12,,4299000,5.0,7,256,256,oppo
-13,[Kejar Diskon] OPPO Reno8 T 4G Smartphone,4899000,5.0,30,8,256,oppo
-14,[Flash Price] OPPO Reno8 T 4G Smartphone,4899000,4.9,750,8,256,oppo
-15, [Diskon Spesial] OPPO A57 Smartphone,2699000,5.0,50,4,128,oppo
-16,[Special Promo] OPPO A57 Smartphone,2699000,5.0,13,4,128,oppo
-17,[Special Promo] OPPO A77s,3499000,5.0,2,8,128,oppo
-18,OPPO A17,2099000,5.0,7,4,64,oppo
-19,,7999000,5.0,30,256,256,oppo
-20,,5999000,5.0,30,256,256,oppo
-21,,5999000,4.9,24,256,256,oppo
-22,[Kejar Diskon] OPPO Reno6 5G Smartphone,7999000,4.8,50,8,128,oppo
-23,[Flash Promo] OPPO A54 Smartphone,3099000,5.0,50,6,128,oppo
-24,,4299000,4.9,100,256,256,oppo
-25,OPPO A54 Smartphone,3099000,4.9,30,6,128,oppo
-26,,4999000,5.0,250,256,256,oppo
-27,OPPO Find N2 Flip,14999000,4.9,90,8,256,oppo
-28,OPPO Reno6 5G Smartphone,7999000,4.9,100,8,128,oppo
-29,OPPO Reno8 5G,8499000,5.0,17,12,256,oppo
-30,OPPO Reno6 5G Smartphone,7999000,4.8,10,8,128,oppo
-31,OPPO Reno7 Z 5G,5999000,4.8,11,8,128,oppo
-32,,5199000,5.0,2,256,256,oppo
-33,OPPO Reno8 T 4G Smartphone,4899000,4.9,500,8,256,oppo
-34,OPPO A57 Smartphone,2699000,4.9,250,4,128,oppo
-35,,5199000,4.9,70,256,256,oppo
-36,[Flash Promo] OPPO A55,2699000,5.0,12,4,64,oppo
-37,OPPO A17k,1799000,4.9,250,3,64,oppo
-38,OPPO A16k,2199000,4.8,70,4,64,oppo
-39,OPPO A16 Smartphone,1999000,4.9,4000,3,32,oppo
-40,[Promo Sale] OPPO A55,2699000,5.0,70,4,64,oppo
-41,OPPO A17,2099000,4.9,1000,4,64,oppo
-42,FLASH PROMO - OPPO A16 Smartphone,2499000,5.0,1000,4,64,oppo
-43,OPPO A55,2699000,5.0,500,4,64,oppo
-44,OPPO A55,2699000,4.9,3000,4,64,oppo
-45,OPPO A77s,3499000,4.9,750,8,128,oppo
-46,,6199000,5.0,8,256,256,oppo
-47,,3999000,4.9,100,128,128,oppo
-48,,3999000,5.0,8,128,128,oppo
-49,OPPO A16 Smartphone,2499000,4.9,4000,4,64,oppo
-50,,5999000,4.9,250,256,256,oppo
-51,,7999000,4.9,100,256,256,oppo
-52,,4999000,4.9,250,256,256,oppo
-53,[Tukar Tambah Live.On] OPPO Reno6 5G Smartphone,7999000,5.0,6,8,128,oppo
-54,[Tukar Tambah Live.On] OPPO Reno6 Smartphone,5199000,5.0,17,8,128,oppo
-55,OPPO A57 Smartphone,2399000,4.9,500,4,64,oppo
-56,,14999000,4.9,30,256,256,oppo
-57,OPPO FIND X5 PRO 5G Smartphone,14999000,4.9,100,12,256,oppo
-58,OPPO A16k,2199000,4.9,250,4,64,oppo
-59,,4299000,4.9,750,256,256,oppo
-60,,5199000,4.9,250,256,256,oppo
-61,OPPO Reno7 5G,7499000,4.8,100,8,256,oppo
-62,OPPO A55,2699000,4.9,1000,4,64,oppo
-63,OPPO Reno7 Z 5G,5999000,4.9,250,8,128,oppo
-64,OPPO Reno5 F Smartphone,4299000,5.0,70,8,128,oppo
-65,OPPO Reno5 Smartphone,4999000,5.0,3,8,128,oppo
-66,,3999000,4.9,1000,128,128,oppo
-67,OPPO A15S Smartphone,2299000,5.0,4,4,64,oppo
-68,OPPO A15 Smartphone,1749000,4.9,250,2,32,oppo
-69,OPPO Reno6 Pro 5G Smartphone,10999000,4.9,80,12,256,oppo
-70,OPPO Reno6 5G Smartphone,7999000,4.9,250,8,128,oppo
-71,OPPO Reno6 Smartphone,5199000,4.9,1000,8,128,oppo
-72,OPPO A16 Smartphone,1999000,4.9,5000,3,32,oppo
-73,OPPO A53 Smartphone,3099000,4.9,100,6,128,oppo
-74,OPPO A53 Smartphone,2499000,4.9,100,4,64,oppo
-75,OPPO FIND X3 PRO Smartphone,15999000,4.9,100,12,256,oppo
-76,OPPO A74 5G Smartphone,3999000,4.9,750,6,128,oppo
-77,OPPO A92 Smartphone,4199000,4.9,100,8,128,oppo
-78,OPPO A54 Smartphone,2499000,5.0,1000,4,64,oppo
-79,OPPO A54 Smartphone,3099000,4.9,1000,6,128,oppo
-80,OPPO A74 Smartphone,3499000,4.9,250,6,128,oppo
-1,Official realme 13 8GB+8GB|256GB | 120Hz AMOLED Display | 67W SUPERVOOC Charge | 5000mAh Battery | Snapdragon 685 Chipset | Sony LYT-600 OIS Portrait Camera,3199000,4.9,100,8,8,realme
-2,Official realme Buds T110 earphone TWS headset 102dB Volume Boost Mode | Bluetooth 5.4 | IPX5 Water Resistance | 10mm Dynamic Bass Driver,299000,4.9,500,8,32,realme
-3,Official realme C65 HP 8*8+256GB 45W Fast Charge | 5000mAh Massive Battery | G85 | 5000mAh Massive Battery | IP54 Water Resistance | Rainwater Smart Touch,2599000,4.8,70,8,256,realme
-4,Offical realme 12 Pro+ 5G 8+256GB HP | Snapdragon 7z Gen 2 smartphone,5999000,5.0,30,8,256,realme
-5,Offical realme 12 Pro Plus 5G 8+256GB HP Snapdragon 7z Gen 2 | 120Hz,5999000,4.9,100,8,256,realme
-6,realme 9i 4/64GB Snapdragon 680 Prosesor 90Hz Layar Ultra Halus,2699000,5.0,4,4,64,realme
-7,Offical realme Note 50 HP 3GB+3GB* | 64GB 90Hz Vivid Display phone,1499000,4.9,250,3,3,realme
-8,Official HP realme 12 Plus 12GB+512GB Dimensity 7050 5G Chipset 67W,5999000,5.0,90,12,512,realme
-9,Offical HP realme 12 5G 8GB+8GB*|256GB 108MP Camera 6.72 FHD+ LCD,4499000,4.9,100,8,8,realme
-10,Offical HP realme C51s 6GB+6GB*|128GB 50MP AI Camera 7.49mm smartphone,2299000,4.9,250,6,6,realme
-11,Official realme 12 Plus 8GB+256GB HP Dimensity 7050 5G Chipset 67W,4290000,4.9,100,8,256,realme
-12,Offical realme 12 Pro Plus 5G 12+512GB Snapdragon 7z Gen 2  | 120Hz ,7190000,4.9,50,12,512,realme
-13,Official Realme HP GT Neo 3 80W 8+256GB Dimensity 8100 5G,7999000,5.0,2,8,256,realme
-14,Official Realme HP C67 NFC 8+8GB*/128GB 256GB Snapdragon 685 108MP,3699000,4.9,100,8,128,realme
-15,(New) realme C67 NFC 8+8GB*/128GB 256GB Snapdragon 685 108MP Camera,99990000,5.0,40,8,128,realme
-16,Official realme C51 4+4/64GB | 4+4/128GB - 33W Charge | 50 MP | NFC,2899000,4.9,250,4,64,realme
-17,Official Realme HP 11 4G NFC 8GB/256GB 5000mah|108MP Camera|Helio G99,99000000,5.0,30,8,256,realme
-18,HP realme 11 Pro 5G 8GB+8GB*/256GB  120Hz Display | 100MP OIS | 67W ,7999000,5.0,14,8,256,realme
-19,Official Realme HP 11 pro+ 5G 12GB+12GB* / 512GB| 200MP OIS,100000000,5.0,3,12,12,realme
-20,Official realme C53 6/128GB -33W SUPERVOOC Charge | 5000 mAh| NFC|50MP,2999000,4.9,500,6,128,realme
-21,Official Realme HP c55 6GB+128GB | 8GB+256GB smartphone 90Hz FHD+,9899000,4.9,250,6,128,realme
-22,Official Realme HP 10 8GB+128GB | 8GB+256GB 90Hz 5000mAh Handphone,3399000,4.9,70,8,128,realme
-23,Official Realme HP 10 Pro+ 5G 8GB+128GB 12GB+256GB Smartphone,6999000,5.0,10,8,128,realme
-24,Hp realme C33 3/32GB 4/64GB 4+128GB Handphone Smartphone,1699000,4.7,25,3,32,realme
-25,Official Realme HP c30s 3GB+32GB 5000mAh | 6.5''Fullscreen Smartphone,3666000,5.0,5,3,32,realme
-26,HP realme c30s 4GB+64GB 5000mAh | 6.5'' Fullscreen Smartphone,4888000,5.0,18,4,64,realme
-27,Hp realme 10 Pro+ 5G 8GB+128GB Smartphone Handphone,9999000,5.0,7,8,128,realme
-28,Official Realme HP 10 Pro+ 5G 12GB+256GB Smartphone Handphone,9999000,4.9,11,12,256,realme
-29,Hp realme 10 Pro 5G 8GB+128GB | 8GB+256GB Smartphone Handphone,9599000,4.7,11,8,128,realme
-30,realme 10 8GB+256GB Helio G99 Chipset | 5000mAh Handphone,3799000,5.0,29,8,256,realme
-31,Official Realme HP 10 8GB+128GB Helio G99 Chipset | 5000mAh Handphone,3399000,5.0,100,8,128,realme
-32,Hp realme C33 3/32GB 4/64GB Handphone Smartphone,1699000,4.8,30,3,32,realme
-33,Hp realme Narzo 50 4G 4/64GB Handphone Smartphone,2599000,4.9,90,4,64,realme
-34,realme GT 2 PRO 12GB/256GB GREEN [2K Display | PaperTech Master Design,9999000,4.6,8,12,256,realme
-35,Hp realme 9 Pro+ 8/128GB Free Fire Limited Edition 5G Handphone,4999000,5.0,2,8,128,realme
-36,Realme GT Neo 3T 8+128GB 80W Charge Snapdragon 870 5G 5000mAh,5699000,4.8,14,8,128,realme
-37,Hp realme Narzo 50i Prime 3/32GB 4/64GB Handphone Smartphone,1699000,4.9,500,3,32,realme
-38,"realme 8 Helio G95 8/128GB Super AMOLED, 64MP AI Quad Camera",3499000,5.0,2,8,128,realme
-39,"realme narzo 50i 4/64GB 6.5"" Large Display 5000mAh Octa-core processor",1799000,4.9,50,4,64,realme
-40,Hp realme C30 2/32GB 4/64GB Handphone Smartphone,1599000,4.8,11,2,32,realme
-41,Hp realme Narzo 50 5G 6/128GB Handphone Smartphone,3499000,5.0,250,6,128,realme
-42,Hp realme 9 Pro+ 5G 8/128GB 8/256GB Handphone Smartphone,5899000,5.0,30,8,128,realme
-43,Official Realme HP 9i 6/128GB Handphone Smartphone,3199000,5.0,11,6,128,realme
-44,Hp realme C11 (2021) 2/32GB 4/64GB Handphone Smartphone,1249000,4.9,50,2,32,realme
-45,"realme C31 Unisoc Tiger T612, 6.53""HD+, 13 AI Triple Camera,5000mAh",1999000,4.9,17,8,32,realme
-46,Official Realme HP 9 4G 6/128GB 108MP AI Triple Camera Snapdragon 680,3599000,5.0,30,6,128,realme
-47,"realme C21Y 13MP AI Triple Camera 6,5"" Layar Penuh Mini-drop 5000mAh",1699000,5.0,6,8,32,realme
-48,Hp realme Narzo 50A Prime 4/64GB 4/128GB Handphone Smartphone,2299000,4.9,2000,4,64,realme
-49,Hp realme C35 4/64GB 4/128GB Handphone Smartphone,2499000,5.0,40,4,64,realme
-50,realme GT 2 PRO 12GB/256GB 2K Display Snapdragon™ 8 Gen 1 Processor,9999000,5.0,9,12,256,realme
-2,Samsung Galaxy Z Fold6 12/512GB - Silver Shadow + Galaxy Watch7 44mm - Silver,33498000,5.0,1,12,512,samsung
-5,Samsung Galaxy M15 5G 6/128GB,2499000,4.9,1000,6,128,samsung
-6,Samsung Galaxy A55 5G 8/256GB,5509500,4.9,4000,8,256,samsung
-7,Samsung Galaxy A55 5G 12/256GB,6269500,4.9,2000,12,256,samsung
-8,Samsung Galaxy A35 5G 8/256GB,4899000,5.0,2000,8,256,samsung
-10,"Samsung Galaxy S24 Ultra [12/256], Smartphone AI, AI Phone, Handphone AI, Kamera 50MP, Layar besar, RAM besar, Baterai tahan lama",18619500,5.0,90,12,256,samsung
-12,Samsung Galaxy A25 5G 8/256GB,3847000,4.9,500,8,256,samsung
-15,Samsung Galaxy A05s 6/128GB,1994500,4.9,6000,6,128,samsung
-18,Samsung Galaxy S23 FE 8GB/128GB,8999000,5.0,4,8,128,samsung
-19,Samsung Galaxy A25 5G 8GB/256GB,4499000,5.0,40,8,256,samsung
-22,Samsung Galaxy A04e 3/32GB,1399000,5.0,8,3,32,samsung
-25,Samsung Galaxy A05s 6GB/128GB [Smartphone],2399000,5.0,50,6,128,samsung
-26,Samsung Galaxy A05 4GB/64GB [Smartphone],1599000,4.9,250,4,64,samsung
-27,Samsung Galaxy A15 8/256 LTE,3399000,5.0,40,8,256,samsung
-28,Samsung Galaxy A15 5G 8GB/256GB,3699000,4.9,250,8,256,samsung
-29,Samsung Galaxy A15 LTE 8GB/128GB,2999000,5.0,80,8,128,samsung
-30,Samsung Galaxy A55 5G 8/128GB,5999000,4.9,500,8,128,samsung
-31,Samsung Galaxy M34 5G 8GB/128GB,4099000,4.9,100,8,128,samsung
-32,"Samsung Galaxy S24 Ultra [12/1TB], Smartphone AI, AI Phone, Handphone AI, Kamera 50MP, Layar besar, RAM besar, Baterai tahan lama",27999000,5.0,250,12,1,samsung
-33,Samsung Galaxy S24+ 12/512GB Handphone AI,18999000,4.9,100,12,512,samsung
-34,Samsung Galaxy S24+ 12/256GB Handphone AI,15650000,4.7,28,12,256,samsung
-35,"Samsung Galaxy S24 [8/512], Smartphone AI, AI Phone, Handphone AI, Kamera 50MP, Layar besar, RAM besar, Baterai tahan lama",15999000,4.9,100,8,512,samsung
-36,Samsung Galaxy A34 5G 8GB/256GB ,5399000,4.9,250,8,256,samsung
-37,Samsung Galaxy A25 5G 8/128GB,4099000,4.9,750,8,128,samsung
-38,Samsung Galaxy A15 5G 8/256GB,3699000,4.9,2000,8,256,samsung
-39,Samsung Galaxy A15 LTE 8/256GB ,2980000,5.0,1000,8,256,samsung
-40,Samsung Galaxy A15 LTE 8/128GB,2999000,4.9,4000,8,128,samsung
-41,Samsung Galaxy M34 5G 8/128GB,4099000,4.9,1000,8,128,samsung
-42,Samsung Galaxy M54 5G 8/256GB,4499000,4.9,1000,8,256,samsung
-43,Samsung Galaxy S23 5G 8/256,13999000,5.0,100,8,256,samsung
-44,Samsung Galaxy A05 4/128GB,1799000,5.0,1000,4,128,samsung
-45,Samsung Galaxy A05 6/128GB,1999000,5.0,2000,6,128,samsung
-46,Samsung Galaxy A05 4/64GB,1599000,5.0,3000,4,64,samsung
-47,"Samsung Galaxy Z Fold5 [12/1TB] - Smartphone AI, AI Phone, Smartphone Lipat, Android, Immersive Viewing & Snapdragon 8 Gen 2 (4nm)",29999000,4.9,70,12,1,samsung
-48,"Samsung Galaxy Z Fold5 [12/512] - Smartphone AI, AI Phone, Smartphone Lipat, Android, Immersive Viewing & Snapdragon 8 Gen 2 (4nm)",26999000,5.0,100,12,512,samsung
-49,"Samsung Galaxy Z Fold5 [12/256] - Smartphone AI, AI Phone, Smartphone Lipat, Android, Immersive Viewing & Snapdragon 8 Gen 2 (4nm)",24999000,5.0,24,12,256,samsung
-50,"Samsung Galaxy Z Flip5 [8/512] - Smartphone AI, AI Phone, Smartphone Lipat, Android, Bigger Cover Screen & Snapdragon 8 Gen 2 (4nm)",17999000,4.9,250,8,512,samsung
-51,Samsung Galaxy Z Flip5 8/256GB,15999000,5.0,100,8,256,samsung
-52,Samsung Galaxy A54 5G 8/256GB,6399000,4.9,2000,8,256,samsung
-53,Samsung Galaxy A54 5G 8/128GB,5999000,4.9,500,8,128,samsung
-54,Samsung Galaxy A34 5G 8/256GB,5399000,4.9,1000,8,256,samsung
-55,"Samsung Galaxy S23 Ultra [12/512], Smartphone AI, AI Phone, Handphone AI, 50MP Nightography Camera & Snapdragon 8 Gen 2 (4nm), HP flagship Samsung, Android",21999000,4.8,250,12,512,samsung
-1,"Xiaomi Redmi 14C (6GB/128GB) (8GB/256GB) | Layar 6.88"" | Refresh rate 120 Hz | 50 MP dual kamera AI | Baterai 5.160 mAh | NFC [Official Store]",1499000,4.9,1000,6,128,xiaomi
-2,Official Xiaomi POCO F6 (8GB+256GB) | (12GB + 512GB) Snapdragon 8s Gen 3 | LiquidCool Technology 4.0 IceLoop,4999000,4.9,1000,8,128,xiaomi
-3,Official Xiaomi POCO M6 (8GB+256GB) | Kamera utama 108 MP kelas pro | Helio G91-Ultra yang tangguh | 33 W Turbo Charging,1999000,5.0,4000,8,128,xiaomi
-4,Official Xiaomi Redmi 13 (8GB/128GB) | (8GB/256GB) | Kamera 108 MP Super Jernih MediaTek Helio G91-Ultra 33W Fast Charging,1799000,5.0,2000,8,128,xiaomi
-5,Xiaomi 14 | Snapdragon 8 Gen 3 Leica 75mm Light Fusion 900 image sensor [ Official Store ],11999000,4.9,100,6,128,xiaomi
-7,Official Xiaomi Redmi Note 13 Pro | Kamera 200 MP ultra-jernih AMOLED ,3499000,4.9,1000,6,128,xiaomi
-8,"Official Redmi A3 | Layar Muluz 90 Hz berukuran 6.71"" baterai 5000 mAH",1199000,4.9,4000,6,128,xiaomi
-9,Official Xiaomi Redmi Note 13 5G | Tiga kamera 108 MP FHD+ AMOLED,2799000,4.9,3000,6,128,xiaomi
-10,"Official Xiaomi Redmi Note 13 Pro+ 5G | Layar AMOLED 1,5K 120 Hz",5999000,4.9,1000,6,128,xiaomi
-11,Official Xiaomi Redmi Note 13 (8GB/128GB) | (8GB/256GB) | Layar 120 Hz FHD+ AMOLED Tiga kamera 108 MP Prosesor Snapdragon 685,2199000,4.9,5000,8,128,xiaomi
-12,Official POCO M6 Pro | 120Hz Flow AMOLED 64MP triple camera OIS 67W,2699000,4.9,7000,6,128,xiaomi
-13,Official POCO X6 | Powerful Snapdragon® 7s Gen 2 FIow AMOLED 120 Hz 64,3999000,4.9,1000,6,128,xiaomi
-14,Official POCO X6 Pro 5G | Dimensity 8300-Ultra 120Hz FIow AMOLED 67W T,4899000,4.9,1000,6,128,xiaomi
-15,Official POCO C65 | RAM hingga 16 GB* Prosesor kencang Helio G85 90Hz ,1749000,4.9,1000,6,128,xiaomi
-16,Official Xiaomi Redmi 13C | Tiga kamera AI 50 MP 16 GB RAM* Layar Dot ,1799000,4.9,9000,6,128,xiaomi
-17,Official Xiaomi Redmi 12 (8GB/128GB) | (8GB/256GB) MediaTek Helio G88,1799000,4.9,8000,8,128,xiaomi
-18,Official Xiaomi POCO X5 Pro 5G (6GB/128GB) | (8GB/256GB) Snapdragon,3999000,4.9,6000,6,128,xiaomi
-19,Xiaomi Official Redmi Note 12 50MP Triple Kamera 120Hz AMOLED NFC IP53,2299000,4.9,6000,6,128,xiaomi
-20,XIAOMI OFFICIAL Redmi Note 12 Pro 5G Kamera 50MP Sony IMX766 P-OLED,4599000,4.9,5000,6,128,xiaomi
->>>>>>> 4ec1ece71d95ec194a9ec2549ef89d124763c4ab
+name,price,rating,sold,ram,rom,brand
+Asus Zenfone 10 8/128GB - Starry Blue,8999000,4.8,60,8,128,asus
+Asus Zenfone 10 8/128GB - Aurora Green,8999000,4.9,60,8,128,asus
+Asus Zenfone 10 8/128GB - Eclipse Red,8999000,5.0,70,8,128,asus
+Asus Zenfone 10 8/128GB - Comet White,8999000,4.8,50,8,128,asus
+Asus Zenfone 10 8/128GB - Midnight Black,8999000,4.9,100,8,128,asus
+Asus Zenfone 10 16/512GB - Midnight Black,11999000,4.9,80,16,512,asus
+Asus Zenfone 9 8/256GB - White,9999000,4.7,7,8,256,asus
+ Asus Zenfone 9 8/256GB - Black,9999000,5.0,30,8,256,asus
+Asus Zenfone 9 6/128GB - Black,7999000,5.0,250,6,128,asus
+Asus Zenfone 9 6/128GB - White,7999000,5.0,60,6,128,asus
+Asus Zenfone 9 6/128GB - Red,7999000,5.0,27,6,128,asus
+Asus Zenfone 9 6/128GB - Blue,7999000,4.8,24,6,128,asus
+Asus Zenfone 9 16/256GB - Black,11999000,5.0,100,16,256,asus
+Asus Zenfone 8 8/128GB - Silver,6999000,5.0,2,8,128,asus
+Asus Zenfone 8 8/128GB - Black,6999000,5.0,100,8,128,asus
+Infinix Note 40 Pro+ 5G 12/256GB - Up to 24GB Extended RAM - Dimensity 7020 - 6.78” FHD+ 3D Curved Amoled - 108MP OIS - 100W Charger - NFC,3949000,4.9,250,8,256,infinix
+Infinix Note 40S 8/256GB - Up to 16GB Extended RAM - Helio G99 - 6.78” 3D Curved Amoled 120Hz - Camera 108MP - 5000 mAh - NFC,3099000,4.9,500,8,256,infinix
+Infinix Note 40 Pro 5G 8/256GB - Up to 16GB Extended RAM - Dimensity 7020 - 6.78” FHD+ 3D Curved Amoled - 108MP OIS - 45W Charger - NFC,3799000,4.9,1000,8,256,infinix
+Infinix Note 40 Pro 8/256GB - Up to 16GB Extended RAM - Helio G99,3499000,4.9,2000,8,256,infinix
+Infinix Note 40 8/256GB - Up to 16GB Extended RAM - Helio G99 - 6.78”,2999000,4.9,2000,8,256,infinix
+Infinix Note 30 8/256GB - Up To 16GB - 120 HZ Screen - 8/256 Black,2599000,4.9,1000,8,256,infinix
+Infinix Note 30 PRO 8/256GB -Up To 16GB- 108MP - 8/256 Garansi Resmi,3199000,4.9,1000,8,256,infinix
+Infinix Note 30 8/256GB - Up To 16GB - 120 HZ Screen - 8/256,2599000,4.9,3000,8,256,infinix
+OPPO A3x,2199000,5.0,18,6,128,oppo
+OPPO Reno12 Pro 5G,8999000,5.0,21,12,512,oppo
+OPPO Reno12 F,4299000,4.9,30,8,256,oppo
+OPPO Reno12 5G,6999000,5.0,100,12,256,oppo
+OPPO A3 Pro 5G,3999000,5.0,100,8,256,oppo
+OPPO A78 5G,3999000,4.9,250,8,128,oppo
+[Flash Sale] OPPO A3 Pro 5G,4049000,4.7,3,8,256,oppo
+OPPO A18,1799000,4.9,25,4,128,oppo
+[DISKON] OPPO Reno8 T 4G Smartphone,4899000,5.0,90,8,256,oppo
+[Kejar Diskon] OPPO Reno8 T 4G Smartphone,4899000,5.0,30,8,256,oppo
+[Flash Price] OPPO Reno8 T 4G Smartphone,4899000,4.9,750,8,256,oppo
+ [Diskon Spesial] OPPO A57 Smartphone,2699000,5.0,50,4,128,oppo
+[Special Promo] OPPO A57 Smartphone,2699000,5.0,13,4,128,oppo
+[Special Promo] OPPO A77s,3499000,5.0,2,8,128,oppo
+OPPO A17,2099000,5.0,7,4,64,oppo
+[Kejar Diskon] OPPO Reno6 5G Smartphone,7999000,4.8,50,8,128,oppo
+[Flash Promo] OPPO A54 Smartphone,3099000,5.0,50,6,128,oppo
+OPPO A54 Smartphone,3099000,4.9,30,6,128,oppo
+OPPO Find N2 Flip,14999000,4.9,90,8,256,oppo
+OPPO Reno6 5G Smartphone,7999000,4.9,100,8,128,oppo
+OPPO Reno8 5G,8499000,5.0,17,12,256,oppo
+OPPO Reno6 5G Smartphone,7999000,4.8,10,8,128,oppo
+OPPO Reno7 Z 5G,5999000,4.8,11,8,128,oppo
+OPPO Reno8 T 4G Smartphone,4899000,4.9,500,8,256,oppo
+OPPO A57 Smartphone,2699000,4.9,250,4,128,oppo
+[Flash Promo] OPPO A55,2699000,5.0,12,4,64,oppo
+OPPO A17k,1799000,4.9,250,3,64,oppo
+OPPO A16k,2199000,4.8,70,4,64,oppo
+OPPO A16 Smartphone,1999000,4.9,4000,3,32,oppo
+[Promo Sale] OPPO A55,2699000,5.0,70,4,64,oppo
+OPPO A17,2099000,4.9,1000,4,64,oppo
+FLASH PROMO - OPPO A16 Smartphone,2499000,5.0,1000,4,64,oppo
+OPPO A55,2699000,5.0,500,4,64,oppo
+OPPO A55,2699000,4.9,3000,4,64,oppo
+OPPO A77s,3499000,4.9,750,8,128,oppo
+OPPO A16 Smartphone,2499000,4.9,4000,4,64,oppo
+[Tukar Tambah Live.On] OPPO Reno6 5G Smartphone,7999000,5.0,6,8,128,oppo
+[Tukar Tambah Live.On] OPPO Reno6 Smartphone,5199000,5.0,17,8,128,oppo
+OPPO A57 Smartphone,2399000,4.9,500,4,64,oppo
+OPPO FIND X5 PRO 5G Smartphone,14999000,4.9,100,12,256,oppo
+OPPO A16k,2199000,4.9,250,4,64,oppo
+OPPO Reno7 5G,7499000,4.8,100,8,256,oppo
+OPPO A55,2699000,4.9,1000,4,64,oppo
+OPPO Reno7 Z 5G,5999000,4.9,250,8,128,oppo
+OPPO Reno5 F Smartphone,4299000,5.0,70,8,128,oppo
+OPPO Reno5 Smartphone,4999000,5.0,3,8,128,oppo
+OPPO A15S Smartphone,2299000,5.0,4,4,64,oppo
+OPPO A15 Smartphone,1749000,4.9,250,2,32,oppo
+OPPO Reno6 Pro 5G Smartphone,10999000,4.9,80,12,256,oppo
+OPPO Reno6 5G Smartphone,7999000,4.9,250,8,128,oppo
+OPPO Reno6 Smartphone,5199000,4.9,1000,8,128,oppo
+OPPO A16 Smartphone,1999000,4.9,5000,3,32,oppo
+OPPO A53 Smartphone,3099000,4.9,100,6,128,oppo
+OPPO A53 Smartphone,2499000,4.9,100,4,64,oppo
+OPPO FIND X3 PRO Smartphone,15999000,4.9,100,12,256,oppo
+OPPO A74 5G Smartphone,3999000,4.9,750,6,128,oppo
+OPPO A92 Smartphone,4199000,4.9,100,8,128,oppo
+OPPO A54 Smartphone,2499000,5.0,1000,4,64,oppo
+OPPO A54 Smartphone,3099000,4.9,1000,6,128,oppo
+OPPO A74 Smartphone,3499000,4.9,250,6,128,oppo
+Official realme 13 8GB+8GB|256GB | 120Hz AMOLED Display | 67W SUPERVOOC Charge | 5000mAh Battery | Snapdragon 685 Chipset | Sony LYT-600 OIS Portrait Camera,3199000,4.9,100,8,256,realme
+Official realme Buds T110 earphone TWS headset 102dB Volume Boost Mode | Bluetooth 5.4 | IPX5 Water Resistance | 10mm Dynamic Bass Driver,2990000,4.9,500,8,32,realme
+Official realme C65 HP 8*8+256GB 45W Fast Charge | 5000mAh Massive Battery | G85 | 5000mAh Massive Battery | IP54 Water Resistance | Rainwater Smart Touch,2599000,4.8,70,8,256,realme
+Offical realme 12 Pro+ 5G 8+256GB HP | Snapdragon 7z Gen 2 smartphone,5999000,5.0,30,8,256,realme
+Offical realme 12 Pro Plus 5G 8+256GB HP Snapdragon 7z Gen 2 | 120Hz,5999000,4.9,100,8,256,realme
+realme 9i 4/64GB Snapdragon 680 Prosesor 90Hz Layar Ultra Halus,2699000,5.0,4,4,64,realme
+Offical realme Note 50 HP 3GB+3GB* | 64GB 90Hz Vivid Display phone,1499000,4.9,250,3,64,realme
+Official HP realme 12 Plus 12GB+512GB Dimensity 7050 5G Chipset 67W,5999000,5.0,90,12,512,realme
+Offical HP realme 12 5G 8GB+8GB*|256GB 108MP Camera 6.72 FHD+ LCD,4499000,4.9,100,8,256,realme
+Offical HP realme C51s 6GB+6GB*|128GB 50MP AI Camera 7.49mm smartphone,2299000,4.9,250,6,128,realme
+Official realme 12 Plus 8GB+256GB HP Dimensity 7050 5G Chipset 67W,4290000,4.9,100,8,256,realme
+Offical realme 12 Pro Plus 5G 12+512GB Snapdragon 7z Gen 2  | 120Hz ,7190000,4.9,50,12,512,realme
+Official Realme HP GT Neo 3 80W 8+256GB Dimensity 8100 5G,7999000,5.0,2,8,256,realme
+Official Realme HP C67 NFC 8+8GB*/128GB 256GB Snapdragon 685 108MP,3699000,4.9,100,8,128,realme
+(New) realme C67 NFC 8+8GB*/128GB 256GB Snapdragon 685 108MP Camera,99990000,5.0,40,8,128,realme
+Official realme C51 4+4/64GB | 4+4/128GB - 33W Charge | 50 MP | NFC,2899000,4.9,250,4,64,realme
+Official Realme HP 11 4G NFC 8GB/256GB 5000mah|108MP Camera|Helio G99,99000000,5.0,30,8,256,realme
+HP realme 11 Pro 5G 8GB+8GB*/256GB  120Hz Display | 100MP OIS | 67W ,7999000,5.0,14,8,256,realme
+Official Realme HP 11 pro+ 5G 12GB+12GB* / 512GB| 200MP OIS,100000000,5.0,3,12,512,realme
+Official realme C53 6/128GB -33W SUPERVOOC Charge | 5000 mAh| NFC|50MP,2999000,4.9,500,6,128,realme
+Official Realme HP c55 6GB+128GB | 8GB+256GB smartphone 90Hz FHD+,9899000,4.9,250,6,128,realme
+Official Realme HP 10 8GB+128GB | 8GB+256GB 90Hz 5000mAh Handphone,3399000,4.9,70,8,128,realme
+Official Realme HP 10 Pro+ 5G 8GB+128GB 12GB+256GB Smartphone,6999000,5.0,10,8,128,realme
+Hp realme C33 3/32GB 4/64GB 4+128GB Handphone Smartphone,1699000,4.7,25,3,32,realme
+Official Realme HP c30s 3GB+32GB 5000mAh | 6.5''Fullscreen Smartphone,3666000,5.0,5,3,32,realme
+HP realme c30s 4GB+64GB 5000mAh | 6.5'' Fullscreen Smartphone,4888000,5.0,18,4,64,realme
+Hp realme 10 Pro+ 5G 8GB+128GB Smartphone Handphone,9999000,5.0,7,8,128,realme
+Official Realme HP 10 Pro+ 5G 12GB+256GB Smartphone Handphone,9999000,4.9,11,12,256,realme
+Hp realme 10 Pro 5G 8GB+128GB | 8GB+256GB Smartphone Handphone,9599000,4.7,11,8,128,realme
+realme 10 8GB+256GB Helio G99 Chipset | 5000mAh Handphone,3799000,5.0,29,8,256,realme
+Official Realme HP 10 8GB+128GB Helio G99 Chipset | 5000mAh Handphone,3399000,5.0,100,8,128,realme
+Hp realme C33 3/32GB 4/64GB Handphone Smartphone,1699000,4.8,30,3,32,realme
+Hp realme Narzo 50 4G 4/64GB Handphone Smartphone,2599000,4.9,90,4,64,realme
+realme GT 2 PRO 12GB/256GB GREEN [2K Display | PaperTech Master Design,9999000,4.6,8,12,256,realme
+Hp realme 9 Pro+ 8/128GB Free Fire Limited Edition 5G Handphone,4999000,5.0,2,8,128,realme
+Realme GT Neo 3T 8+128GB 80W Charge Snapdragon 870 5G 5000mAh,5699000,4.8,14,8,128,realme
+Hp realme Narzo 50i Prime 3/32GB 4/64GB Handphone Smartphone,1699000,4.9,500,3,32,realme
+"realme 8 Helio G95 8/128GB Super AMOLED, 64MP AI Quad Camera",3499000,5.0,2,8,128,realme
+"realme narzo 50i 4/64GB 6.5"" Large Display 5000mAh Octa-core processor",1799000,4.9,50,4,64,realme
+Hp realme C30 2/32GB 4/64GB Handphone Smartphone,1599000,4.8,11,2,32,realme
+Hp realme Narzo 50 5G 6/128GB Handphone Smartphone,3499000,5.0,250,6,128,realme
+Hp realme 9 Pro+ 5G 8/128GB 8/256GB Handphone Smartphone,5899000,5.0,30,8,128,realme
+Official Realme HP 9i 6/128GB Handphone Smartphone,3199000,5.0,11,6,128,realme
+Hp realme C11 (2021) 2/32GB 4/64GB Handphone Smartphone,1249000,4.9,50,2,32,realme
+"realme C31 Unisoc Tiger T612, 6.53""HD+, 13 AI Triple Camera,5000mAh",1999000,4.9,17,8,32,realme
+Official Realme HP 9 4G 6/128GB 108MP AI Triple Camera Snapdragon 680,3599000,5.0,30,6,128,realme
+"realme C21Y 13MP AI Triple Camera 6,5"" Layar Penuh Mini-drop 5000mAh",1699000,5.0,6,8,32,realme
+Hp realme Narzo 50A Prime 4/64GB 4/128GB Handphone Smartphone,2299000,4.9,2000,4,64,realme
+Hp realme C35 4/64GB 4/128GB Handphone Smartphone,2499000,5.0,40,4,64,realme
+realme GT 2 PRO 12GB/256GB 2K Display Snapdragon™ 8 Gen 1 Processor,9999000,5.0,9,12,256,realme
+Samsung Galaxy Z Fold6 12/512GB - Silver Shadow + Galaxy Watch7 44mm - Silver,33498000,5.0,1,12,512,samsung
+Samsung Galaxy M15 5G 6/128GB,2499000,4.9,1000,6,128,samsung
+Samsung Galaxy A55 5G 8/256GB,5509500,4.9,4000,8,256,samsung
+Samsung Galaxy A55 5G 12/256GB,6269500,4.9,2000,12,256,samsung
+Samsung Galaxy A35 5G 8/256GB,4899000,5.0,2000,8,256,samsung
+"Samsung Galaxy S24 Ultra [12/256], Smartphone AI, AI Phone, Handphone AI, Kamera 50MP, Layar besar, RAM besar, Baterai tahan lama",18619500,5.0,90,12,256,samsung
+Samsung Galaxy A25 5G 8/256GB,3847000,4.9,500,8,256,samsung
+Samsung Galaxy A05s 6/128GB,1994500,4.9,6000,6,128,samsung
+Samsung Galaxy S23 FE 8GB/128GB,8999000,5.0,4,8,128,samsung
+Samsung Galaxy A25 5G 8GB/256GB,4499000,5.0,40,8,256,samsung
+Samsung Galaxy A04e 3/32GB,1399000,5.0,8,3,32,samsung
+Samsung Galaxy A05s 6GB/128GB [Smartphone],2399000,5.0,50,6,128,samsung
+Samsung Galaxy A05 4GB/64GB [Smartphone],1599000,4.9,250,4,64,samsung
+Samsung Galaxy A15 8/256 LTE,3399000,5.0,40,8,256,samsung
+Samsung Galaxy A15 5G 8GB/256GB,3699000,4.9,250,8,256,samsung
+Samsung Galaxy A15 LTE 8GB/128GB,2999000,5.0,80,8,128,samsung
+Samsung Galaxy A55 5G 8/128GB,5999000,4.9,500,8,128,samsung
+Samsung Galaxy M34 5G 8GB/128GB,4099000,4.9,100,8,128,samsung
+"Samsung Galaxy S24 Ultra [12/1TB], Smartphone AI, AI Phone, Handphone AI, Kamera 50MP, Layar besar, RAM besar, Baterai tahan lama",27999000,5.0,250,12,1000,samsung
+Samsung Galaxy S24+ 12/512GB Handphone AI,18999000,4.9,100,12,512,samsung
+Samsung Galaxy S24+ 12/256GB Handphone AI,15650000,4.7,28,12,256,samsung
+"Samsung Galaxy S24 [8/512], Smartphone AI, AI Phone, Handphone AI, Kamera 50MP, Layar besar, RAM besar, Baterai tahan lama",15999000,4.9,100,8,512,samsung
+Samsung Galaxy A34 5G 8GB/256GB ,5399000,4.9,250,8,256,samsung
+Samsung Galaxy A25 5G 8/128GB,4099000,4.9,750,8,128,samsung
+Samsung Galaxy A15 5G 8/256GB,3699000,4.9,2000,8,256,samsung
+Samsung Galaxy A15 LTE 8/256GB ,2980000,5.0,1000,8,256,samsung
+Samsung Galaxy A15 LTE 8/128GB,2999000,4.9,4000,8,128,samsung
+Samsung Galaxy M34 5G 8/128GB,4099000,4.9,1000,8,128,samsung
+Samsung Galaxy M54 5G 8/256GB,4499000,4.9,1000,8,256,samsung
+Samsung Galaxy S23 5G 8/256,13999000,5.0,100,8,256,samsung
+Samsung Galaxy A05 4/128GB,1799000,5.0,1000,4,128,samsung
+Samsung Galaxy A05 6/128GB,1999000,5.0,2000,6,128,samsung
+Samsung Galaxy A05 4/64GB,1599000,5.0,3000,4,64,samsung
+"Samsung Galaxy Z Fold5 [12/1TB] - Smartphone AI, AI Phone, Smartphone Lipat, Android, Immersive Viewing & Snapdragon 8 Gen 2 (4nm)",29999000,4.9,70,12,1000,samsung
+"Samsung Galaxy Z Fold5 [12/512] - Smartphone AI, AI Phone, Smartphone Lipat, Android, Immersive Viewing & Snapdragon 8 Gen 2 (4nm)",26999000,5.0,100,12,512,samsung
+"Samsung Galaxy Z Fold5 [12/256] - Smartphone AI, AI Phone, Smartphone Lipat, Android, Immersive Viewing & Snapdragon 8 Gen 2 (4nm)",24999000,5.0,24,12,256,samsung
+"Samsung Galaxy Z Flip5 [8/512] - Smartphone AI, AI Phone, Smartphone Lipat, Android, Bigger Cover Screen & Snapdragon 8 Gen 2 (4nm)",17999000,4.9,250,8,512,samsung
+Samsung Galaxy Z Flip5 8/256GB,15999000,5.0,100,8,256,samsung
+Samsung Galaxy A54 5G 8/256GB,6399000,4.9,2000,8,256,samsung
+Samsung Galaxy A54 5G 8/128GB,5999000,4.9,500,8,128,samsung
+Samsung Galaxy A34 5G 8/256GB,5399000,4.9,1000,8,256,samsung
+"Samsung Galaxy S23 Ultra [12/512], Smartphone AI, AI Phone, Handphone AI, 50MP Nightography Camera & Snapdragon 8 Gen 2 (4nm), HP flagship Samsung, Android",21999000,4.8,250,12,512,samsung
+"Xiaomi Redmi 14C (6GB/128GB) (8GB/256GB) | Layar 6.88"" | Refresh rate 120 Hz | 50 MP dual kamera AI | Baterai 5.160 mAh | NFC [Official Store]",1499000,4.9,1000,6,128,xiaomi
+Official Xiaomi POCO F6 (8GB+256GB) | (12GB + 512GB) Snapdragon 8s Gen 3 | LiquidCool Technology 4.0 IceLoop,4999000,4.9,1000,8,128,xiaomi
+Official Xiaomi POCO M6 (8GB+256GB) | Kamera utama 108 MP kelas pro | Helio G91-Ultra yang tangguh | 33 W Turbo Charging,1999000,5.0,4000,8,128,xiaomi
+Official Xiaomi Redmi 13 (8GB/128GB) | (8GB/256GB) | Kamera 108 MP Super Jernih MediaTek Helio G91-Ultra 33W Fast Charging,1799000,5.0,2000,8,128,xiaomi
+Xiaomi 14 | Snapdragon 8 Gen 3 Leica 75mm Light Fusion 900 image sensor [ Official Store ],11999000,4.9,100,6,128,xiaomi
+Official Xiaomi Redmi Note 13 Pro | Kamera 200 MP ultra-jernih AMOLED ,3499000,4.9,1000,6,128,xiaomi
+"Official Redmi A3 | Layar Muluz 90 Hz berukuran 6.71"" baterai 5000 mAH",1199000,4.9,4000,6,128,xiaomi
+Official Xiaomi Redmi Note 13 5G | Tiga kamera 108 MP FHD+ AMOLED,2799000,4.9,3000,6,128,xiaomi
+"Official Xiaomi Redmi Note 13 Pro+ 5G | Layar AMOLED 1,5K 120 Hz",5999000,4.9,1000,6,128,xiaomi
+Official Xiaomi Redmi Note 13 (8GB/128GB) | (8GB/256GB) | Layar 120 Hz FHD+ AMOLED Tiga kamera 108 MP Prosesor Snapdragon 685,2199000,4.9,5000,8,128,xiaomi
+Official POCO M6 Pro | 120Hz Flow AMOLED 64MP triple camera OIS 67W,2699000,4.9,7000,6,128,xiaomi
+Official POCO X6 | Powerful Snapdragon® 7s Gen 2 FIow AMOLED 120 Hz 64,3999000,4.9,1000,6,128,xiaomi
+Official POCO X6 Pro 5G | Dimensity 8300-Ultra 120Hz FIow AMOLED 67W T,4899000,4.9,1000,6,128,xiaomi
+Official POCO C65 | RAM hingga 16 GB* Prosesor kencang Helio G85 90Hz ,1749000,4.9,1000,6,128,xiaomi
+Official Xiaomi Redmi 13C | Tiga kamera AI 50 MP 16 GB RAM* Layar Dot ,1799000,4.9,9000,6,128,xiaomi
+Official Xiaomi Redmi 12 (8GB/128GB) | (8GB/256GB) MediaTek Helio G88,1799000,4.9,8000,8,128,xiaomi
+Official Xiaomi POCO X5 Pro 5G (6GB/128GB) | (8GB/256GB) Snapdragon,3999000,4.9,6000,6,128,xiaomi
+Xiaomi Official Redmi Note 12 50MP Triple Kamera 120Hz AMOLED NFC IP53,2299000,4.9,6000,6,128,xiaomi
+XIAOMI OFFICIAL Redmi Note 12 Pro 5G Kamera 50MP Sony IMX766 P-OLED,4599000,4.9,5000,6,128,xiaomi
