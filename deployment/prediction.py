@@ -41,6 +41,8 @@ def run():
     # horizontal line
     st.write("---")
 
+    st.image('logo.jpg')
+
     # description
     st.write('''This page will allows user to detect review sentiment''')
 
@@ -52,31 +54,36 @@ def run():
 
     # predict
     if submit:
-        texts = clean_text(text)
-        prompt = f"""
-                Anda adalah seorang ahli linguistik yang pandai mengklasifikasikan sentimen ulasan pelanggan ke dalam label Positif/Negatif.
-                Bantu saya mengklasifikasikan ulasan pelanggan ke dalam: Positif dan Negatif.
-                Ulasan pelanggan diberikan di antara dua backticks.
-                Dalam output Anda, hanya kembalikan kode Json sebagai output - yang disediakan di antara dua backticks.
-                Tugas Anda adalah memperbarui label yang diprediksi di bawah 'pred_label' dalam kode Json.
-                Jangan mengubah format kode Json.
+        try:
+            texts = clean_text(text)
+            prompt = f"""
+                    Anda adalah seorang ahli linguistik yang pandai mengklasifikasikan sentimen ulasan pelanggan ke dalam label Positif/Negatif.
+                    Bantu saya mengklasifikasikan ulasan pelanggan ke dalam: Positif dan Negatif.
+                    Ulasan pelanggan diberikan di antara dua backticks.
+                    Dalam output Anda, hanya kembalikan kode Json sebagai output - yang disediakan di antara dua backticks.
+                    Tugas Anda adalah memperbarui label yang diprediksi di bawah 'pred_label' dalam kode Json.
+                    Hanya memberikan output Positif atau Negatif.
+                    Jangan mengubah format kode Json.
 
-                ```
-                ['"clean_reviews":{texts},"pred_label":""']
-                ```
-                """
-        
-        response = model.generate_content(prompt)
+                    ```
+                    ['"clean_reviews":{texts},"pred_label":""']
+                    ```
+                    """
+            
+            response = model.generate_content(prompt)
 
-        # Bersihkan string JSON
-        json_data = response.text.replace("`", "").strip().replace('json', '').replace('\n', '')  # Buang backticks dan spasi ekstra
+            # Bersihkan string JSON
+            json_data = response.text.replace("`", "").strip().replace('json', '').replace('\n', '')  # Buang backticks dan spasi ekstra
 
-        # Parse JSON dan konversi ke DataFrame
-        data = json.loads(json_data)
-        first_entry = data[0]
+            # Parse JSON dan konversi ke DataFrame
+            data = json.loads(json_data)
+            first_entry = data[0]
 
-        st.write(f"Text: '{texts}'")
-        st.write(f"Predicted Class: {first_entry['pred_label']}")
+            st.write(f"Text: '{texts}'")
+            st.write(f"Predicted Class: {first_entry['pred_label']}")
+
+        except:
+            st.write('Terjadi kesalahan coba input ulang.')
 
 if __name__ == "__main__":
     run()

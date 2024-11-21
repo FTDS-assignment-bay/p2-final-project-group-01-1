@@ -6,7 +6,6 @@ import streamlit as st
 
 # wordcloud
 from wordcloud import WordCloud
-from wordcloud import STOPWORDS
 
 # Visualization
 import matplotlib.pyplot as plt
@@ -22,13 +21,15 @@ def run():
     # horizontal line
     st.write("---")
 
+    st.image('logo.jpg')
+
     # section dataframe
     # load dataset
-    df = pd.read_csv('/Users/Rifky/HACKTIV8/CLASSROOM/p2-final-project-group-01-1/analyst.csv')
+    df = pd.read_csv('D:/p2-final-project-group-01-1/analyst.csv')
     df = df.drop_duplicates()
     df = df.dropna()
 
-    data = pd.read_csv('/Users/Rifky/HACKTIV8/CLASSROOM/p2-final-project-group-01-1/data_final.csv')
+    data = pd.read_csv('D:\p2-final-project-group-01-1\data_final.csv')
     
     # Hapus simbol '+' dan tulisan 'terjual' lalu ganti tipe data ke integer
     data['Rating'] = data['Rating'].str.replace('bintang ', '')
