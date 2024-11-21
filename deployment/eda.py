@@ -24,9 +24,15 @@ def run():
 
     # section dataframe
     # load dataset
-    df = pd.read_csv('D:\p2-final-project-group-01-1\analyst.csv')
+    df = pd.read_csv('/Users/Rifky/HACKTIV8/CLASSROOM/p2-final-project-group-01-1/analyst.csv')
+    df = df.drop_duplicates()
+    df = df.dropna()
 
-    data = pd.read_csv('D:\p2-final-project-group-01-1\data_final.csv')
+    data = pd.read_csv('/Users/Rifky/HACKTIV8/CLASSROOM/p2-final-project-group-01-1/data_final.csv')
+    
+    # Hapus simbol '+' dan tulisan 'terjual' lalu ganti tipe data ke integer
+    data['Rating'] = data['Rating'].str.replace('bintang ', '')
+    data['Rating'] = data['Rating'].astype(int)
 
     # subheader
     st.write('## Dataframe')
@@ -39,227 +45,289 @@ def run():
     st.write('## Exploratory Data Analysis')
 
     # title
-    st.write('### Distribusi Data')
+    st.write('### Distribusi Brand Varian')
     
+    brand_counts = df['brand'].value_counts()
+
     # create canvas
     fig = plt.figure(figsize=(15,10))
 
-    # Plot the pie chart
-    plt.pie(data['status'].value_counts(),labels=data['status'].value_counts().index, autopct='%.2f')
+    plt.pie(brand_counts, labels=brand_counts.index, autopct='%1.1f%%', startangle=90, colors=plt.cm.Paired.colors)
+    plt.title('Distribution of Brands')
+    plt.axis('equal') 
 
     # show the plot
     st.pyplot(fig)
 
     # insight
-    st.write('''Dari jumlah distribusi data yang dapat dilihat dari grafik pie dan juga value count diketahui bahwa persebaran data sebagai berikut :
-                \n- Normal: 30.83% (16,351)
-                \n- Depression: 29.04% (15,404)
-                \n- Suicidal: 20.08% (10,653)
-                \n- Anxiety: 7.33% (3,888)
-                \n- Bipolar: 5.42% (2,877)
-                \n- Stress: 5.03% (2,669)
-                \n- Personality Disorder: 2.26% (1,201)''')
+    st.write('''
+                \n- Infinix: 4%
+                \n- Xiaomi: 7.7%
+                \n- Vivo: 13%
+                \n- Asus: 13.8%
+                \n- Samsung: 17%
+                \n- Realme: 20.2%
+                \n- Oppo: 24.3%
+             ''')
+
+    # title
+    st.write('### Bar Chart')
+    st.write('#### Most Sold Brand')
+
+    # Group the data by brand and sum the sold quantities
+    brand_sales = df.groupby('brand')['sold'].sum()
+
+    # Plot the bar chart
+    fig2 = plt.figure(figsize=(10, 6))
+    brand_sales.sort_values().plot(kind='bar', color='skyblue', edgecolor='black')
+
+    # Add titles and labels
+    plt.title('Total Sales by Brand', fontsize=16)
+    plt.xlabel('Brand', fontsize=12)
+    plt.ylabel('Total Sales', fontsize=12)
+    plt.xticks(rotation=45, ha='right')  # Rotate brand names for better visibility
+    plt.tight_layout()
+
+    # show the plot
+    st.pyplot(fig2)
+
+    # insight
+    st.write('''
+                \n- Xiaomi: 66100
+                \n- Vivo: 18135
+                \n- Asus: 1957
+                \n- Samsung: 37785
+                \n- Realme: 6269
+                \n- Oppo: 29529
+             ''')
+    
+    # title
+    st.write('### Bar Chart')
+    st.write('#### Average Price')
+
+    # Group the data by brand and calculate the average price
+    average_price_by_brand = df.groupby('brand')['price'].mean()
+
+    # Plot the bar chart
+    fig3 = plt.figure(figsize=(10, 6))
+    average_price_by_brand.sort_values().plot(kind='bar', color='lightgreen', edgecolor='black')
+
+    # Add titles and labels
+    plt.title('Average Price of Products by Brand', fontsize=16)
+    plt.xlabel('Brand', fontsize=12)
+    plt.ylabel('Average Price', fontsize=12)
+    plt.xticks(rotation=45, ha='right')  # Rotate brand names for better visibility
+    plt.tight_layout()
+
+     # show the plot
+    st.pyplot(fig3)
+
+      # insight
+    st.write('''
+                \n- Xiaomi: Rp 3.464.789,00
+                \n- Vivo: Rp 3.325.562,00
+                \n- Asus: Rp 10.307.820,00
+                \n- Samsung: Rp 9.472.238,00
+                \n- Realme: Rp 10.214.440,00
+                \n- Oppo: Rp 4.735.667,00
+             ''')
+    
+    # title
+    st.write('### Bar Chart')
+    st.write('#### Most Sold Ram')
+
+    # Group the data by brand and calculate the average price
+    sold_ram = df.groupby('ram')['sold'].sum()
+
+    # Plot the bar chart
+    fig4 = plt.figure(figsize=(10, 6))
+    sold_ram.sort_values().plot(kind='bar', color='lightgreen', edgecolor='black')
+
+    # Add titles and labels
+    plt.title('Most Sold RAM', fontsize=16)
+    plt.xlabel('RAM', fontsize=12)
+    plt.ylabel('Units', fontsize=12)
+    plt.xticks(rotation=45, ha='right')  # Rotate brand names for better visibility
+    plt.tight_layout()
+
+     # show the plot
+    st.pyplot(fig4)
+
+     # insight
+    st.write('''
+                \n- The most sold brand with 8GB RAM is 'samsung' with a total quantity of 21564 units.
+             ''')
+    
+    # title
+    st.write('### Bar Chart')
+    st.write('#### Most Sold Rom')
+
+    # Group the data by brand and calculate the average price
+    sold_rom = df.groupby('rom')['sold'].sum()
+
+    # Plot the bar chart
+    fig5 = plt.figure(figsize=(10, 6))
+    sold_rom.sort_values().plot(kind='bar', color='lightgreen', edgecolor='black')
+
+    # Add titles and labels
+    plt.title('Most Sold ROM', fontsize=16)
+    plt.xlabel('ROM', fontsize=12)
+    plt.ylabel('Units', fontsize=12)
+    plt.xticks(rotation=45, ha='right')  # Rotate brand names for better visibility
+    plt.tight_layout()
+
+     # show the plot
+    st.pyplot(fig5)
+
+     # insight
+    st.write('''
+                \n- The most sold brand with 128GB ROM is 'xiaomi' with a total quantity of 66100 units.
+             ''')
+
+
+
 
     # title
     st.write('### WordCloud')
-    st.write('#### Keseluruhan Data')
+    st.write('#### Rating = 1')
 
-    # mengumpulkan kata yang terdapat pada kolom statement
-    text = " ".join(str(i) for i in data['statement'])
-    # menyiapkan data untuk stopwords
-    stopwords = set(STOPWORDS)
-    # membuat variable untuk menampung wordcloud
-    wordcloud = WordCloud(stopwords=stopwords, background_color="white").generate(text)
+   # Filter rows where rating < 3
+    low_rating_reviews = data[data['Rating'] == 1]
 
-    fig = plt.figure(figsize=(15, 10))
-    # menapilkan wordcloud
+    # Combine all review text into a single string
+    text_data = " ".join(low_rating_reviews['Review'].dropna().astype(str))
+
+    # Generate the word cloud
+    wordcloud = WordCloud(width=800, height=400, background_color='white').generate(text_data)
+
+    # Plot the word cloud
+    fig6 = plt.figure(figsize=(10, 5))
     plt.imshow(wordcloud, interpolation='bilinear')
-    # menghapus axis
-    plt.axis("off")
+    plt.axis('off')  # Hide the axes for a cleaner look
+    plt.title("Word Cloud for Reviews with Rating 1", fontsize=16)
+    plt.show()
 
     # menampilkan plot
-    st.pyplot(fig)
+    st.pyplot(fig6)
 
     # insight
-    st.write('''Jadi dari keseluruhan data dapat dilihat bahwa kata yang paling banyak digunakan sebagai berikut:
-            \n1. feel
-            \n2. know, want
-            \n3. life
-            \n4. now
-            \n5. people, think
-            \n6. will, time
-            \n7. even''')
+    st.write('''
+            Words such "tidak", "kurang", "kurir", "proses" are mention in the 1 rating wordclouds. This indicates variety of reasons, often driven by dissatisfaction or frustration with a product or service such as poor product quality or misleading product descriptions.
+             ''')
     
-    st.write('#### Normal')
+    st.write('#### Very Bad')
 
-    # mengumpulkan kata yang terdapat pada kolom statement untuk kelas normal
-    text = " ".join(str(i) for i in data[data['status']=='Normal']['statement'])
-    # menyiapkan data untuk stopwords
-    stopwords = set(STOPWORDS)
-    # membuat variable untuk menampung wordcloud
-    wordcloud = WordCloud(stopwords=stopwords, background_color="white").generate(text)
+    st.write('#### Rating = 2')
 
-    # membuat tempat atau plot untuk menampilkan wordcloud
-    fig = plt.figure(figsize=(15,10))
-    # menapilkan wordcloud
+   # Filter rows where rating < 3
+    low_rating_reviews = data[data['Rating'] == 2]
+
+    # Combine all review text into a single string
+    text_data = " ".join(low_rating_reviews['Review'].dropna().astype(str))
+
+    # Generate the word cloud
+    wordcloud = WordCloud(width=800, height=400, background_color='white').generate(text_data)
+
+    # Plot the word cloud
+    fig7 = plt.figure(figsize=(10, 5))
     plt.imshow(wordcloud, interpolation='bilinear')
-    # menghapus axis
-    plt.axis("off")
+    plt.axis('off')  # Hide the axes for a cleaner look
+    plt.title("Word Cloud for Reviews with Rating 2", fontsize=16)
+    plt.show()
 
     # menampilkan plot
-    st.pyplot(fig)
+    st.pyplot(fig7)
 
-    st.write('''Dari data yang status kesehatan mentalnya adalah normal, kata yang sering digunakan adalah sebagai berikut:
-                \n1. want
-                \n2. will
-                \n3. one''')
+    # insight
+    st.write('''
+            Words such "tidak", "barang", "pengiriman", "proses" are mention in the 2 rating wordclouds. This indicates variety of reasons, often driven by dissatisfaction or frustration with a product or service such as poor product quality or misleading product descriptions.
+            ''')
+    
+    st.write('#### Bad')
 
-    st.write('#### Depression')
+    st.write('#### Rating = 3')
 
-    # mengumpulkan kata yang terdapat pada kolom statement untuk kelas depresi
-    text = " ".join(str(i) for i in data[data['status']=='Depression']['statement'])
-    # menyiapkan data untuk stopwords
-    stopwords = set(STOPWORDS)
-    # membuat variable untuk menampung wordcloud
-    wordcloud = WordCloud(stopwords=stopwords, background_color="white").generate(text)
+   # Filter rows where rating < 3
+    low_rating_reviews = data[data['Rating'] == 3]
 
-    # membuat tempat atau plot untuk menampilkan wordcloud
-    fig = plt.figure(figsize=(15,10))
-    # menapilkan wordcloud
+    # Combine all review text into a single string
+    text_data = " ".join(low_rating_reviews['Review'].dropna().astype(str))
+
+    # Generate the word cloud
+    wordcloud = WordCloud(width=800, height=400, background_color='white').generate(text_data)
+
+    # Plot the word cloud
+    fig8 = plt.figure(figsize=(10, 5))
     plt.imshow(wordcloud, interpolation='bilinear')
-    # menghapus axis
-    plt.axis("off")
+    plt.axis('off')  # Hide the axes for a cleaner look
+    plt.title("Word Cloud for Reviews with Rating 3", fontsize=16)
+    plt.show()
 
     # menampilkan plot
-    st.pyplot(fig)
+    st.pyplot(fig8)
 
-    st.write('''Dari data yang status kesehatan mentalnya adalah depresi, kata yang sering digunakan adalah sebagai berikut:
-                \n1. feel
-                \n2. want
-                \n3. life''')
+    # insight
+    st.write('''
+            Words such "tidak", "kurang", "lama", "proses" are mention in the 3 rating wordclouds. This indicates variety of reasons, often driven by dissatisfaction or frustration with a product or service such as misleading product descriptions, poor customer services, or delivery issues.
+            ''')
+    
+    st.write('#### Bad')
 
-    st.write('#### Suicidal')
+    st.write('#### Rating = 4')
 
-    # mengumpulkan kata yang terdapat pada kolom statement untuk kelas suicidal
-    text = " ".join(str(i) for i in data[data['status']=='Suicidal']['statement'])
-    # menyiapkan data untuk stopwords
-    stopwords = set(STOPWORDS)
-    # membuat variable untuk menampung wordcloud
-    wordcloud = WordCloud(stopwords=stopwords, background_color="white").generate(text)
+   # Filter rows where rating < 3
+    low_rating_reviews = data[data['Rating'] == 4]
 
-    # membuat tempat atau plot untuk menampilkan wordcloud
-    fig = plt.figure(figsize=(15,10))
-    # menapilkan wordcloud
+    # Combine all review text into a single string
+    text_data = " ".join(low_rating_reviews['Review'].dropna().astype(str))
+
+    # Generate the word cloud
+    wordcloud = WordCloud(width=800, height=400, background_color='white').generate(text_data)
+
+    # Plot the word cloud
+    fig9 = plt.figure(figsize=(10, 5))
     plt.imshow(wordcloud, interpolation='bilinear')
-    # menghapus axis
-    plt.axis("off")
+    plt.axis('off')  # Hide the axes for a cleaner look
+    plt.title("Word Cloud for Reviews with Rating 4", fontsize=16)
+    plt.show()
 
     # menampilkan plot
-    st.pyplot(fig)
+    st.pyplot(fig9)
 
-    st.write('''Dari data yang status kesehatan mentalnya adalah suicidal, kata yang sering digunakan adalah sebagai berikut:
-                \n1. want
-                \n2. feel
-                \n3. life
-                \n4. know''')
-
-    st.write('#### Anxiety')
-
-    # mengumpulkan kata yang terdapat pada kolom statement untuk kelas anxiety
-    text = " ".join(str(i) for i in data[data['status']=='Anxiety']['statement'])
-    # menyiapkan data untuk stopwords
-    stopwords = set(STOPWORDS)
-    # membuat variable untuk menampung wordcloud
-    wordcloud = WordCloud(stopwords=stopwords, background_color="white").generate(text)
+    # insight
+    st.write('''
+            Words such "bagus", "aman", "barang", "proses" are mention in the 4 rating wordclouds. This indicates variety of reasons, often driven by customer satisfaction with a product or service such as good product quality or fast delivery service.
+            ''')
     
-    # membuat tempat atau plot untuk menampilkan wordcloud
-    fig = plt.figure(figsize=(15,10))
-    # menapilkan wordcloud
+    st.write('#### Good')
+
+    st.write('#### Rating = 5')
+
+   # Filter rows where rating < 3
+    low_rating_reviews = data[data['Rating'] == 5]
+
+    # Combine all review text into a single string
+    text_data = " ".join(low_rating_reviews['Review'].dropna().astype(str))
+
+    # Generate the word cloud
+    wordcloud = WordCloud(width=800, height=400, background_color='white').generate(text_data)
+
+    # Plot the word cloud
+    fig10 = plt.figure(figsize=(10, 5))
     plt.imshow(wordcloud, interpolation='bilinear')
-    # menghapus axis
-    plt.axis("off")
+    plt.axis('off')  # Hide the axes for a cleaner look
+    plt.title("Word Cloud for Reviews with Rating 5", fontsize=16)
+    plt.show()
 
     # menampilkan plot
-    st.pyplot(fig)
+    st.pyplot(fig10)
 
-    st.write('''Dari data yang status kesehatan mentalnya adalah abxiety, kata yang sering digunakan adalah sebagai berikut:
-                \n1. anxiety
-                \n2. feel
-                \n3. now, m''')
+    # insight
+    st.write('''
+            Words such "cepat", "aman", "awet", "sesuai", "mantap" are mention in the 5 rating wordclouds. This indicates variety of reasons, often driven by customer satisfaction with a product or service such as good product quality, fast delivery service, value of money, and or user experience.
+            ''')
     
-    st.write('#### Stress')
+    st.write('#### Very Good')
 
-    # mengumpulkan kata yang terdapat pada kolom statement untuk kelas stress
-    text = " ".join(str(i) for i in data[data['status']=='Stress']['statement'])
-    # menyiapkan data untuk stopwords
-    stopwords = set(STOPWORDS)
-    # membuat variable untuk menampung wordcloud
-    wordcloud = WordCloud(stopwords=stopwords, background_color="white").generate(text)
-    
-    # membuat tempat atau plot untuk menampilkan wordcloud
-    fig = plt.figure(figsize=(15,10))
-    # menapilkan wordcloud
-    plt.imshow(wordcloud, interpolation='bilinear')
-    # menghapus axis
-    plt.axis("off")
-
-    # menampilkan plot
-    st.pyplot(fig)
-
-    st.write('''Dari data yang status kesehatan mentalnya adalah stress, kata yang sering digunakan adalah sebagai berikut:
-                \n1. fell
-                \n2. stress
-                \n3. time, know''')
-
-    st.write('#### Bi-Polar')
-
-    # mengumpulkan kata yang terdapat pada kolom statement untuk kelas bipolar
-    text = " ".join(str(i) for i in data[data['status']=='Bipolar']['statement'])
-    # menyiapkan data untuk stopwords
-    stopwords = set(STOPWORDS)
-    # membuat variable untuk menampung wordcloud
-    wordcloud = WordCloud(stopwords=stopwords, background_color="white").generate(text)
-    
-    # membuat tempat atau plot untuk menampilkan wordcloud
-    fig = plt.figure(figsize=(15,10))
-    # menapilkan wordcloud
-    plt.imshow(wordcloud, interpolation='bilinear')
-    # menghapus axis
-    plt.axis("off")
-
-    # menampilkan plot
-    st.pyplot(fig)
-
-    st.write('''Dari data yang status kesehatan mentalnya adalah bi-polar, kata yang sering digunakan adalah sebagai berikut:
-                \n1. feel
-                \n2. know, m
-                \n3. bipolar''')
-    
-    st.write('#### Personality Disorder')
-    # mengumpulkan kata yang terdapat pada kolom statement untuk kelas personality disorder
-    text = " ".join(str(i) for i in data[data['status']=='Personality disorder']['statement'])
-    # menyiapkan data untuk stopwords
-    stopwords = set(STOPWORDS)
-    # membuat variable untuk menampung wordcloud
-    wordcloud = WordCloud(stopwords=stopwords, background_color="white").generate(text)
-    # membuat tempat atau plot untuk menampilkan wordcloud
-    fig = plt.figure(figsize=(15,10))
-    # menapilkan wordcloud
-    plt.imshow(wordcloud, interpolation='bilinear')
-    # menghapus axis
-    plt.axis("off")
-    # menampilkan plot
-    st.pyplot(fig)
-
-    st.write('''Dari data yang status kesehatan mentalnya adalah personality disorder, kata yang sering digunakan adalah sebagai berikut:
-                \n1. feel
-                \n2. people
-                \n3. know
-                \n4. thing, AvPD, even
-                \n5. time, friend, want, life''')
-    st.write('---')
-    st.write('''### Kesimpulan''')
-    st.write('''Analisis distribusi kata dalam data menunjukkan bahwa kategori gangguan mental memiliki pola bahasa yang berbeda dibandingkan kategori Normal. Kata-kata seperti "feel," "want," dan "life" yang dominan dalam gangguan mental menunjukkan adanya ekspresi emosi mendalam, keinginan yang belum terpenuhi, dan refleksi hidup yang berat. Selain itu, gangguan tertentu seperti Anxiety, Stress, dan Bipolar memperlihatkan pola kesadaran diri pengguna dengan penyebutan langsung kondisi mereka. Kata-kata seperti "know," "time," dan "now" dalam konteks gangguan mental juga mengindikasikan adanya kecenderungan introspeksi dan ketidakpastian terkait waktu atau masa depan.''')
-    
 if __name__ == "__main__":
     run()
